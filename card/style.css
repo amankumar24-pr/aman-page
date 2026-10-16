@@ -1,0 +1,101 @@
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f7d34f;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        
+        .background {
+            width: 1200px;
+            height: 800px;
+            margin: 50px auto;
+            background-color: #f7d34f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+        .card {
+            width: 320px;
+            background-color: white;
+            border: 1px solid #111;
+            border-radius: 18px;
+            padding: 20px;
+            box-shadow: 7px 8px 0px #111;
+        }
+
+        
+        .card-image {
+            width: 280px;
+            height: 180px;
+            display: block;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 18px;
+        }
+
+        
+        .learning {
+            display: inline-block;
+            background-color: #f5ce3d;
+            color: #111;
+            padding: 6px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        .date {
+            margin: 0 0 12px 0;
+            font-size: 12px;
+            color: #555;
+        }
+
+
+        .title {
+            margin: 0 0 12px 0;
+            font-size: 20px;
+            line-height: 1.2;
+            color: #111;
+        }
+
+
+        
+        .description {
+            margin: 0 0 20px 0;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #777;
+        }
+
+
+        .image {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+
+        .image img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+
+        .image-name {
+            font-size: 13px;
+            font-weight: bold;
+            color: #111;
+        }
+
+    
