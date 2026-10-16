@@ -1,0 +1,68 @@
+
+
+
+body{
+    font-family: "libre franklim", sans-serif;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    margin-top: 50px;
+}
+h1 {
+    font-size: 50px;
+    font-weight:  lighter;
+    color: hsl(0, 0%, 59% );
+}
+
+span {
+    font-weight: bold;
+    color: black;
+}
+
+#para1 {
+    margin-top: -30px;
+}
+.inputbottons{
+    margin-top: 30px;
+    width: 500px;
+   
+}
+input {
+    padding: 20px;
+    border-color:  hsl(0, 0%, 59% );
+    border-radius: 50px;
+    width: 400px;
+    opacity: 0.3;
+    margin-right: 10px;
+}
+button{
+    padding: 20px;
+    border-radius:50px ;
+    width: 250px;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-size: 20px;
+    font-family: "libre franklin", sans-serif;
+}
+#mainimage{
+    height: 430px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.icons img{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    color: blue;
+    border: 1px solid hsl(0, 13%, 90%);
+    border-radius: 60px;
+}
+
+p{
+    color: hsl(0, 0%, 59%);
+}
